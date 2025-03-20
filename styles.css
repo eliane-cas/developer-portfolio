@@ -370,8 +370,18 @@ section {
 }
 
 .project-title {
-  display: block;
   position: absolute;
+
+  width: 65px;
+  height: 30px;
+  border-radius: 50%;
+  z-index: 9999;
+  background-color: rgb(163, 15, 15);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
 }
 
 .project-tile:hover {
